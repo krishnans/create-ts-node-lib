@@ -1,0 +1,15 @@
+{
+  "name": "create-ts-node-lib",
+  "version": "0.0.1",
+  "description": "A typescript private library for boiler plate",
+  "main": "lib/index.js",
+  "author": "balakrishnan",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^2.9.2"
+	},
+	"scripts": {
+		"build": "./node_modules/.bin/tsc"
+	}
+}
